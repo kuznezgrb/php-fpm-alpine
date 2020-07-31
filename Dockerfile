@@ -5,7 +5,8 @@ RUN apk add --no-cache --update  --repository http://dl-cdn.alpinelinux.org/alpi
         php-bcmath \
         php-dom \
         php-ctype \
-        php-curl \
+        curl-dev \
+        php7-curl \
         php-fileinfo \
         php-fpm \
         php-gd \
